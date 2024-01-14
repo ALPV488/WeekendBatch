@@ -8,7 +8,7 @@ public class StaticEx {
 	
 	public void counter() {
 		
-		staticcounter++;
+		staticcounter++;	
 		
 		instancecounter++;
 		
