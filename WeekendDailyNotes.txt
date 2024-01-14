@@ -1,0 +1,119 @@
+on	- 0,	off - 1			coding :-ASCII,UNICODE
+
+programs:-set of instructions
+
+
+												pro lang
+								
+						pop(procedure o pl)					oop(object o p)
+					
+				basic,cobal....								java,.net,lisp...
+				
+				
+
+platorm independency
+
+
+garbage collector
+
+oopl	--------->		oops
+
+Inheritance,Polymorphism:-Performance
+
+Abstraction,Encapsulation:-Security
+
+sunmicrosys's--------------------------------->orcale
+		greentalk(.gt)-------->oak---------->java(.java)
+		
+		
+		jdk 1.0								jdk 21
+		
+		
+	
+	jse/j2se:-core java (standlone (server-client))
+	
+	jee/j2ee:-distributed(server-client)
+	
+	jme/j2me:-mobile app's
+	
+	
+	keywords:-predefined words(53)
+	
+		
+		
+		class test
+		{
+		public static void main(String []args)
+		{
+		byte x=10;
+		}
+		}
+		
+	
+
+
+platorm independency:-
+
+
+class = class members + member's functions
+
+	
+	variables:-
+	
+					syntax:-
+					
+			datatype varname = value;
+			
+declaration:-  G.v  --->outside the methods and inside the class
+
+				L.v ---->inside the method body		
+										 
+										 
+				 global variables					local variables
+						
+		static g.v  		instance g.v
+
+syntax:-
+						
+static:-	static	datatype varname = value;
+	
+instance:-		datatype varname = value;	
+
+
+access:-
+
+static :- 	static prop's can be accessed by the class reference
+
+instance :- instance prop's can be accessed by the object reference
+
+					
+		object creation			syntax:-
+					
+			classname objname = new classname();
+
+
+MEMORY ALLOCATION:-
+
+static:- static var's will get the memory only once when the class.
+
+instance:- Instance var's will get the memory location for every object creation.
+						
+
+use:-
+
+static:-	To represent the common data
+
+instance:-	To represent the unique data		
+
+memory area:-
+
+static:-	method area
+
+instance:-	heap area	
+
+								ULTRA AB
+				a  +  b
+
+
+uniary operators			a++;a--			
+
