@@ -117,3 +117,110 @@ instance:-	heap area
 
 uniary operators			a++;a--			
 
+
+method:-
+
+		syntax:-		accessmodifier returntype methodname(parmas...){
+		
+							//loop body
+							}
+							
+	*based on signature:-2 types of methods
+	
+	
+	(1) static mthod
+	syntax:-		accessmodifier static returntype methodname(parmas...){
+		
+							//loop body
+							}
+	
+	(2)instance method
+							
+	syntax:-		accessmodifier returntype methodname(parmas...){
+		
+							//loop body
+							}						
+							
+							
+		OOPS:-
+		=====
+		
+		
+Inheritance:-Accquring the parent class features(var's,methods,constr...) to the child class.
+
+		*For code Reusability.
+		
+		*For every java class the default Parent class is java.lang.Object class.
+		
+		*The default package for every java file is java.lang.
+		
+		*M.I will not be supported in java @class level
+		
+		*M.I will be supported in java @ Interface level
+			
+
+		extends 										implements
+		
+	class-->class									interface---->interface----
+	
+													interface---->calss
+	class A{
+	
+	100 methods
+	}
+	
+	class B extends A{
+	
+	20 methods		+ 100 method   =120 methods	
+	}
+	
+	methods:-
+	
+	based on the implmentation(body) of a method:- 2 types of method's
+	
+	(1)Concreate method:-methods having method body/implmentation
+	
+	(2)Abstract method:- methods not havingh method body/implmentation
+	
+	syntax:- 
+	
+				a.m returntype  methodname(parmas...);
+	
+	
+	class:-collection of only concreate methods.
+	
+	
+	Abstract class :- collection of concrete methods + collection  of abstract methods
+	
+					abst method	syntax:-public abstract void add(int a,int b);
+	
+	Interface :- collection of only abstract methods.
+	
+	
+	Abstraction:-Hiding of the data.
+	
+				*enables the security of our logic/code/implmentation.
+			
+	class---no abstraction 
+	
+	abstract class----0-100% abstraction
+	
+	interface ------100% abstraction
+	
+	
+	Polymorphism:-
+	
+	(1)method overloading:-same method name but difference in parmas
+	
+								(a)type of parmas
+								(b)no:-of params
+								(c)order of parmas
+								
+	
+	(2)method overriding:-same method name but difference the implmentation/body.
+	
+	
+	
+	
+	
+	
