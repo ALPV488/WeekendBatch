@@ -182,7 +182,7 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	
 	(2)Abstract method:- methods not havingh method body/implmentation
 	
-	syntax:- 
+	syntax:- interface
 	
 				a.m returntype  methodname(parmas...);
 	
@@ -220,6 +220,64 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	(2)method overriding:-same method name but difference the implmentation/body.
 	
 	
+	class Parent{
+	
+	//100 methods
+	
+	10cr.property(){}
+	
+	marriage(){
+	
+	kajol;
+	}
+	
+	}	
+	
+	
+	class child extends Parent{
+	
+	//100 methods
+	
+	10cr.property(){}
+	
+	@Override
+	marriage(){
+	
+	deepika;
+	}
+	
+	
+	}
+	
+	
+	Encapsulation:-Wrapping up the similar data into single unit.
+	
+	
+	*to secure our private info
+	
+	
+	Constructor:- 
+	
+	(1) default constructor:-
+	
+	syntax:-
+	
+				a.m classname(){
+				
+				//body
+				}
+	
+	
+	(2)parametrized constructor
+	
+	syntax:-
+	
+				a.m classname(params...){
+				
+				//body
+				}
+	
+			
 	
 	
 	
