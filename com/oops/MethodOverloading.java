@@ -2,8 +2,8 @@ package com.oops;
 
 public class MethodOverloading {
 
-	public void add(int a, int b) {
-		System.out.println("6.The sum of two integers is:-" + (a + b));
+	public void add(char a, char b) {
+		System.out.println("6.The sum of two integers is:-" + a + b);
 	}
 
 	public void add(int a, int b, int c) {
