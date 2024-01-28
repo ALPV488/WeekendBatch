@@ -180,7 +180,7 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	
 	(1)Concreate method:-methods having method body/implmentation
 	
-	(2)Abstract method:- methods not havingh method body/implmentation
+	(2)Abstract method:- methods not having method body/implmentation
 	
 	syntax:- interface
 	
@@ -255,8 +255,12 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	
 	*to secure our private info
 	
+	public ,private ,default ,protected
 	
-	Constructor:- 
+	
+	Constructor:- Object initilization
+	
+	*It will not have any return type.
 	
 	(1) default constructor:-
 	
@@ -277,8 +281,50 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 				//body
 				}
 	
+	Exception Handling:-
+	
+	(1)To throw user friendly error msg.
+	
+	(2)To terminate the program in a normal way.
 			
+			
+			try catch finally
+	
+	Userdefined exceptions:-
+	
+	1.It must a child class to the Exception class.
 	
 	
+	Arrays:-Group of variables of(Array is a container which is used to store) similar datatypes referred by a 
+	
+	
+			common name
+	
+	Limitations:-
+	============
+	1.Homogenous data can be accepted
+	
+	2.Array size is fixed
+	
+	3.No utility methods
+	
+	syntax:-Array creation can be done in 3 ways:-
+	
+		(1) int arrname[] ={1,2,3,4,5,5,6,7};======>8
+		
+		(2)int arrname[] = new int[10];=============>10
+		
+		(3)int arrname[] = new int[]{1,2,3,4,5,5,6,7};>8
+	
+	
+	
+	collections:-
+	
+	
+	1.Homogenous/Heterogenous data can be accepted
+	
+	2.Array size is not fixed
+	
+	3.Lots of utility methods
 	
 	
