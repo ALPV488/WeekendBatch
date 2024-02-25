@@ -318,7 +318,7 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	
 	
 	
-	collections:-
+	collections:-(framework)
 	
 	
 	1.Homogenous/Heterogenous data can be accepted
@@ -328,3 +328,81 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	3.Lots of utility methods
 	
 	
+	*for implemented/ unimplemented methods @Override is used to change/add or implemention
+	
+	
+									String:-
+									======
+									
+									
+	String			StringBuffer(synchronised) 			StringBuilder(not sync)
+	
+	Immutable					mutable
+	
+	
+	
+	sync:-(1)Data loss
+	
+		   (2)One after another task
+		   
+		   (3)time taking
+		   
+		   
+	Non-sync:-(1)Data loss
+	
+				(2)many tasks at time
+		   
+				(3)no time taking
+				
+				
+		file handling:-		java.io
+		
+		
+		(1)create a file				:-File
+		
+		
+		(2)write into a file			:-FileWriter;
+										  BufferedWriter;
+										  PrintWriter.
+		
+		
+		(3)read from a file				:-FileReader;
+										  BufferedReader.
+										  
+										  
+	
+	
+			Serialization:-The process of converting object data to byte data is called as Serialization
+			==============
+			
+			
+							
+			
+			De-Serialization:-The process of converting  byte data to object data is called as De-Serialization
+			================
+								
+							FileOutputStream-->write into a file
+							
+							ObjectOutputStream ---->write into a file
+							
+							FileInputStream--->read
+							
+							Object InputStream --->read
+			
+			
+			Employee emp = new Employee(emp details);
+			
+			
+			
+			
+			
+				TypeCasting:-It's assigning var of one datatype to var of another dt
+						
+					
+					
+					Explicit ty:-we should the take help of small same datatype.
+					
+							
+					int var = 45
+					
+					object =
