@@ -341,7 +341,7 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	
 	
 	
-	sync:-(1)Data loss
+	sync:-(1)No Data loss
 	
 		   (2)One after another task
 		   
@@ -397,6 +397,9 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 			
 			
 				TypeCasting:-It's assigning var of one datatype to var of another dt
+				
+				
+					Implicit ty:-Automatic ty perfrom jvm.
 						
 					
 					
@@ -405,4 +408,75 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 							
 					int var = 45
 					
-					object =
+					short value = (int) var;
+					
+												java 8
+												======
+					java 8:-functional programming 
+					
+					
+					Functional Interface:-(sam)Single abstract method -By the method is public abstract method
+					
+					
+					super:-It is used to access parent class prop's
+					
+				Note :-constr call must be the first statement inside constr
+				
+					This:-It is used to access the current class prop's.
+					
+					
+													DataBase:-
+													
+	Data:-Raw Info of any real world entites
+
+	
+	Database:-To store the data for future access( permenantly and securely) in a container in an organised way.												
+													
+		apple			458
+
+		orange			343	
+		
+		grapes			56				
+				
+		RDBMS:- It will follows tables format to store the data
+			
+			
+					Rows(Record)+Columns(fields)
+					
+		
+		Query:-To do any operation we need to write a query.
+					5 types:-
+					
+		(1)DDL(Data Definition Lang):-create,alter,drop,truncate,rename
+		
+		(2)DML(Data Manipulation Lang):-insert,update,delete
+		
+		(3)DRL(Data Retrival Lang):-select
+		
+		(4)DCL(Data Control Lang):-grant,revoke
+		
+		(5)TCL(Transaction Control Lang):-commit,rollback
+		
+			
+					
+		To create an account:-		querie's.			
+				
+
+		cmd>conn /as sysdba
+		
+		cmd>create user username identified by password;
+		
+		cmd>grant connect, resource to username;
+		
+		cmd>conn username/password;
+		
+		drop = deleting the entire table
+					
+		truncate = removes the data inside the table
+
+		delete=	to delete choosen rows		
+		
+		
+	DDL:-	AUTOCOMMITTED
+
+	DML:-  Not Autocommitted
