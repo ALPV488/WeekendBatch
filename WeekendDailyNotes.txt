@@ -480,3 +480,190 @@ Inheritance:-Accquring the parent class features(var's,methods,constr...) to the
 	DDL:-	AUTOCOMMITTED
 
 	DML:-  Not Autocommitted
+	
+							
+							JDBC:-
+							====
+							
+		(1)Loading driver classes
+		
+		(2)Create the Connection
+		
+		(3)Create the statement
+		
+		(4)Excute the 	Query
+		
+		(5)Close the connections.
+							
+							
+				
+				db:-orcale ---1521
+				
+					mysql-----3306
+					
+					postg----5432
+					
+					
+		DDL:-execute(sql);
+		
+		DML:-executeUpdate(sql);
+			addBatch(sql);
+			
+		DRL:-excuteQuery(sql);
+		
+		Query in java app:-Satement				useri/p :-PreparedStatement
+		
+	drawbacks:-
+	
+	(1)Query to Create a table 
+	
+	(2)Queries
+	
+	(3)Exception classes
+	
+	
+	jpa(Java Persistence API) FRAMEWORK:------>Specifications
+	
+	Orm Tools (Object Relational Mapping)----->Implementations
+	
+	Hibernate,EcllipseLink,TopLink,Ibatis.........
+	
+	
+	class---->Table
+	
+	Variables ---->Column
+	
+	Object ---->row---->EntityManager
+	
+	
+	(1)No Query to Create a table 
+	
+	(2)No Queries===>Query equivalent method == EntityManager
+	
+	(3)No Exception classes
+	
+----->steps to create a jpa project
+
+						
+		(1)Loading driver classes
+		
+		(2)Create the Connection
+		
+		(3)Create the statement
+		
+		(4)Excute the 	Query
+		
+		(5)Close the connections.
+		
+		(6)hibernate property
+		
+			
+CRUD :-(create,retrive,update,delete)
+					insert ====>persist()
+					
+					select ---->find()
+					
+					update ---->merge()
+					
+					delete ---->remove()
+					
+					EntityManagerFactory
+					
+					EntityManager
+					
+					
+							Spring
+							======
+		
+		Def:-Spring is a non-invasive framework which is used to create light-weighted and 
+		===			loosley coupled web applications.
+		
+		non-invasive:-It will not forces the programmer to use the api
+		
+		heavy -weighted:-
+		
+				class A{
+				
+				1000 meth
+				}
+				
+				class B extends A
+				
+				{10 meth +1000 =1010
+				
+				}
+		
+		
+		tightly coupled:-if the dependencies are very high 
+		
+		
+		loosley coupeld:-if the dependencies are very low 
+		
+		
+		maven :-It is a build tool
+		
+		
+		Spring Core,Spring Boot,Spring Cloud,Spring Security,Spring Data jpa,
+		
+								Spring Core:-
+								
+								
+		To avoid the dependencies b/n the classes to make our app as a loosley coupled app.
+
+		*Container:-Used to create objects 
+		
+				(1)Bean Factory  :-Lazy Initializer
+				
+				(2)Application Context	:-Eager Initializer
+				
+		*Dependency Injection :- Injecting data into the dependency(obj).
+		
+				(1)Setter Injection		:-<property></property>
+				(2)Constructor Injection	:-<constructor-arg></constructor-arg>
+				(3)Autowiring		:-<property></property>====>autowire
+				
+		*Configuration:-
+
+				(1)xml configuration
+				(2)Annatotation configuration
+				
+				
+				SpringBoot:-
+				===========
+				
+		(1)Embedded Server	:-Tomcat:8080
+		
+		(2)AutoConfiguration
+		
+		(3)Starters :-coll'n of jar files
+		
+		(4)Actuators:-we are going to get info by url's(health/status)
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
