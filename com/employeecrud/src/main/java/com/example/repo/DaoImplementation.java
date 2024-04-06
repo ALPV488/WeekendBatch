@@ -22,7 +22,33 @@ public class DaoImplementation implements Dao{
 		
 		return "Your data is added successfully!!!";
 	}
+
+	@Override
+	public String updateEmployee(Employee emp) {
+		
+		em.merge(emp);
+		
+		return "Your data is updated successfully";
+	}
+
+	@Override
+	public String deleteEmployee(int empId) {
+		
+		Employee emp =	em.find(Employee.class,empId);
+	
+		em.remove(emp);
+		
+		return "Your data is deleted successfully";
+	}
+
+	@Override
+	public Employee getEmployee(int empId) {
+		
+		return em.find(Employee.class,empId);
+	}
 	
 	
 
 }
+
+

@@ -18,4 +18,22 @@ public class ServiceImplementation implements Services{
 		return dao.addEmployee(emp);
 	}
 
+	@Override
+	public String updateEmployee(Employee emp) {
+		
+		return dao.updateEmployee(emp);
+	}
+
+	@Override
+	public String deleteEmployee(int empId) {
+		
+		return dao.deleteEmployee(empId);
+	}
+
+	@Override
+	public Employee getEmployee(int empId) {
+	
+		return dao.getEmployee(empId);
+	}
+
 }
